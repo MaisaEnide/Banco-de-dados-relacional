@@ -13,7 +13,7 @@ ORDER BY Salario DESC;
 
 SELECT Nome_Aluno, Idade
 FROM Aluno
-WHERE (Nome_Aluno LIKE '%i%') AND (Idade >=19)
+WHERE (Nome_Aluno LIKE '%i%') AND (Idade > 19)
 ORDER BY Nome_Aluno ASC; 
 ---------------------------------------
 
